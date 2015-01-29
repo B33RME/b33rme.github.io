@@ -5,14 +5,12 @@
 
 .nav-bar ul {
   margin:0 auto;
-  border: 1px solid black;
 }
 .nav-bar {
   margin: 0 auto;
   font-size: 26px;
   text-align: center;
   padding-bottom: 10px;
-  border: 1px solid black;
 }
 
 .nav-bar li {
