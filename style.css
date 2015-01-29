@@ -168,6 +168,34 @@ span{
     and (min-width : 320px)
     and (max-width : 480px) {
     /* Styles */
+      
+      .nav-bar li {
+        display: block;
+      }
+      .app-div {
+        display: none;
+      }
+
+      .dropdown {
+        width: 100%;
+      }
+      .phone_temp {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .text_image {
+        width: 100%;
+        padding-bottom: 10px;
+      }
+      .gif-demo {
+        width: 95%;
+        margin-top: 31.8%;
+        margin-left: 3%;
+      }
+      .mobile-image {
+        display: block;
+      }
     }
 
     /* Smartphones (landscape) ----------- */
@@ -222,8 +250,9 @@ span{
     only screen and (-webkit-min-device-pixel-ratio : 1.5),
     only screen and (min-device-pixel-ratio : 1.5) {
     /* Styles */
+    }
 
-/* @media only screen and (min-device-width: 320px) and (max-width: 500px) {  */
+@media only screen and (min-device-width: 320px) and (max-width: 500px) {
 
   .nav-bar li {
     display: block;
