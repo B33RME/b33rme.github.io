@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar ul {
+  margin:0 auto;
+  border: 1px solid black;
+}
+.nav-bar {
+  margin: 0 auto;
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.1s ease-in-out;
+  width: 20%;
+  margin:auto;
+}
+
+body {
+  background-color: #D6BF9D;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #584a41;
+  font-family: BankGothic;
+}
+
+a:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+img {display: absolute;}
+.container {
+  max-width: 800px;
+}
+
+.logo-white-text{
+  width: 50%;
+  height: 8%;
+  margin:auto;
+  margin-bottom: 15px;
+}
+
+.ddheader{
+  float: right;
+  font-family: BankGothic;
+  margin-top: -15px;
+  margin-bottom: 0px
+}
+
+
+@font-face {
+    font-family: BankGothic;
+    src: url(fonts/bankgothicbold.ttf);
+}
+
+.mobile-image, desktop-image, .container, .nav-bar {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text_image {
+  margin:0 auto;
+}
+
+.dropdown {
+  width: 75%;
+  background-color: #584a41;
+  color: white;
+  margin:auto;
+  margin-top: 0px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: none
+}
+
+/* display nones */
+.dropdown, .mobile-image {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.phone-gif-div {
+  position: relative;
+}
+
+.phone_temp {
+  float: left;
+  width: 40%;
+  height: auto;
+  position: absolute;
+  z-index: 5000;
+}
+
+.gif-demo{
+  height: 74%;
+  width: 37.3%;
+  z-index: 100;
+  position: relative;
+  float: left;
+  margin-top: 12.8%;
+  margin-left: 1%;
+}
+.logo {
+  padding-bottom: 10px;
+  clear: both;
+}
+
+.app-div {
+  float: right;
+  width: 45%;
+  margin-top: 28%;
+}
+
+.logo .beerme-logo {
+  width: 55%;
+  height: auto;
+  margin: 0 20%;
+  clear: right;
+}
+
+.app-store {
+ width: 49%;
+ height: auto;
+}
+
+.clear{
+  clear:both;
+}
+
+.devname{
+  font-family: BankGothic;
+  margin-bottom:0;
+  /*float:right;*/
+}
+
+.devinfo img{
+  height:25px;
+  width:25px;
+}
+
+
+.placeholder{
+  float: left;
+  height: 200px;
+  width: 200px;
+}
+
+span{
+  clear:both;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+  .nav-bar li {
+    display: block;
+  }
+  .app-div {
+    display: none;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+  .phone_temp {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .text_image {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .gif-demo {
+    width: 95%;
+    margin-top: 31.8%;
+    margin-left: 3%;
+  }
+  .mobile-image {
+    display: block;
+  }
+}
