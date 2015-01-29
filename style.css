@@ -169,8 +169,12 @@ span{
     and (max-width : 480px) {
     /* Styles */
       
+      .nav-bar {
+        font-size: 36px;
+      }
       .nav-bar li {
         display: block;
+        width: 100%;
       }
       .app-div {
         display: none;
@@ -252,7 +256,7 @@ span{
     /* Styles */
     }
 
-@media only screen and (min-device-width: 320px) and (max-width: 500px) {
+/* @media only screen and (min-device-width: 320px) and (max-width: 500px) {
 
   .nav-bar li {
     display: block;
@@ -281,4 +285,4 @@ span{
   .mobile-image {
     display: block;
   }
-}
+} */
