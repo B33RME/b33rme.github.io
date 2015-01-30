@@ -165,8 +165,8 @@ span{
 
   /* Smartphones (portrait and landscape) ----------- */
     @media only screen
-    and (min-width : 320px)
-    and (max-width : 500px) {
+    and (min-width : 220px)
+    and (max-width : 550px) {
     /* Styles */
       
       .nav-bar {
@@ -200,4 +200,3 @@ span{
         display: block;
       }
     }
-
