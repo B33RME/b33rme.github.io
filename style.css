@@ -111,12 +111,12 @@ img {display: absolute;}
 
 .gif-demo{
   height: 74%;
-  width: 37.3%;
+  width: 36.7%;
   z-index: 100;
   position: relative;
   float: left;
-  margin-top: 12.8%;
-  margin-left: 1%;
+  margin-top: 12.6%;
+  margin-left: 1.9%;
 }
 .logo {
   padding-bottom: 10px;
@@ -199,9 +199,9 @@ span{
         padding-bottom: 10px;
       }
       .gif-demo {
-        width: 95%;
-        margin-top: 31.8%;
-        margin-left: 3%;
+        width: 93.8%;
+        margin-top: 31.2%;
+        margin-left: 4%;
       }
       .mobile-image {
         display: block;
