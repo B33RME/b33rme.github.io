@@ -162,11 +162,11 @@ span{
   clear:both;
 }
 
-
-  /* Smartphones (portrait and landscape) ----------- */
-    @media only screen
-    and (min-width : 220px)
-    and (max-width : 550px) {
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{ 
     /* Styles */
       
       .nav-bar {
