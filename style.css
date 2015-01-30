@@ -175,6 +175,7 @@ span{
       .nav-bar li {
         display: block;
         font-size: 80px;
+        width: 58%;
       }
       .app-div {
         display: none;
