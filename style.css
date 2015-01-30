@@ -56,6 +56,11 @@ img {display: absolute;}
   margin-bottom: 0px
 }
 
+.placeholder{
+  height: 50px;
+  width: 50px;
+}
+
 
 @font-face {
     font-family: BankGothic;
@@ -162,13 +167,13 @@ span{
   clear:both;
 }
 
-@media only screen 
-    and (max-device-width: 640px), 
-    only screen and (max-device-width: 667px), 
+@media only screen
+    and (max-device-width: 640px),
+    only screen and (max-device-width: 667px),
     only screen and (max-width: 480px)
-{ 
+{
     /* Styles */
-      
+
       .nav-bar {
         font-size: 36px;
       }
